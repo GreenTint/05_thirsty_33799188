@@ -6,16 +6,25 @@ It includes customer registration, a survey form, and information about multiple
 Features
 
 Home Page: Displays the shop name and available product categories.
+https://doc.gold.ac.uk/usr/441/
 
 About Page: Lists all shop locations with manager names and addresses.
+https://doc.gold.ac.uk/usr/441/about
 
 Search Page: Allows users to search products by category (demo only).
+https://doc.gold.ac.uk/usr/441/search
 
 Register Page: Simple customer registration form.
+https://doc.gold.ac.uk/usr/441/register
 
 Survey Page: Collects customer feedback including age, favorite drinks, and student status.
+https://doc.gold.ac.uk/usr/441/survey
+
+Survey Results: Displays customer responses after submitting the form.
+(Shown automatically after submission.)
 
 CSS Styling: Consistent light blue and dark blue theme using a shared stylesheet.
+https://doc.gold.ac.uk/usr/441/css/style.css
 
 Project Structure
 
