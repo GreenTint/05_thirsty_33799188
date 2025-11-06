@@ -1,7 +1,7 @@
 Beverage Haven — Node.js Web App
 
 A simple Express and EJS-based web application for a fictional drink shop business, Beverage Haven.
-It includes registration, product listings, a customer survey, and information about multiple shop locations.
+It includes customer registration, a survey form, and information about multiple shop locations, all styled in a light and dark blue theme.
 
 Features
 
@@ -9,48 +9,48 @@ Home Page: Displays the shop name and available product categories.
 
 About Page: Lists all shop locations with manager names and addresses.
 
-Search Page: Lets users search products by category (basic demo functionality).
+Search Page: Allows users to search products by category (demo only).
 
-Register Page: Form to register new customers.
+Register Page: Simple customer registration form.
 
-Survey Page: Customer feedback form collecting age, drink preferences, and student status.
+Survey Page: Collects customer feedback including age, favorite drinks, and student status.
 
-CSS Styling: Consistent light blue/dark blue color theme using a central stylesheet
+CSS Styling: Consistent light blue and dark blue theme using a shared stylesheet.
+
+Project Structure
 
 project/
 │
 ├── public/
 │   └── css/
-│       └── style.css           # Main stylesheet
+│       └── style.css
 │
 ├── routes/
-│   └── main.js                 # Defines all Express routes
+│   └── main.js
 │
 ├── views/
-│   ├── about.ejs               # About page (shop list)
-│   ├── index.ejs               # Home page
-│   ├── register.ejs            # Registration form
-│   ├── search.ejs              # Search form
-│   ├── survey.ejs              # Customer survey form
-│   └── surveyResult.ejs        # Displays submitted survey results
+│   ├── about.ejs
+│   ├── index.ejs
+│   ├── register.ejs
+│   ├── search.ejs
+│   ├── survey.ejs
+│   └── surveyResult.ejs
 │
-├── index.js                    # Main application entry point
+├── index.js
 ├── package.json
 └── package-lock.json
 
 Tech Stack
 
-Node.js — Backend runtime
+Node.js — JavaScript runtime environment
 
-Express.js — Web framework
+Express.js — Web application framework
 
-EJS — Templating engine for dynamic pages
+EJS — Templating engine for dynamic HTML pages
 
-HTML5 / CSS3 — Frontend layout and styling
+HTML5 / CSS3 — Frontend structure and styling
 
-
-
-Author:
+Author
 
 Alamagan Sharif Jumco
 School Assignment
